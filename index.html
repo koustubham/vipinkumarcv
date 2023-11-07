@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipinkumar Sivakumar | Associate Consultant </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#project">Projects</a>
+                    </li>                    
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div class="header-text">
+            <p>Associate Consultant </p>
+            <h1>Welcome to my Portfolio, <br> I'm <span>Vipinkumar Sivakumar.</span> </h1>
+           </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/Profile-Avatar-PNG.jpeg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>                    
+                    <p>Vipinkumar Sivakumar is an engineering graduate proficient in Python. He is distinguished by his strong interpersonal 
+                        skills, effective leadership, and adept client relationship management. His unwavering determination, coupled with 
+                        rapid learning abilities, enables him to consistently meet deadlines, making him a valuable asset in dynamic 
+                        professional settings.</p>
+                    <br>
+                    <p>
+                        Other Technical Skills :
+                        Microsoft Office, Arduino, node MCU, HASSIO, Raspberry PI.
+                    </p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links"onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links"onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>.NET C#</span><br>currently undergoing training</li>
+                            <li><span>python3</span><br>hands on experience in projects</li>
+                            <li><span>HTML, CSS, JavaScript</span><br>currently undergoing training</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Associate Consultant</li>
+                            <li><span>2 months</span><br>Manager at a Interior Designing Firm</li>  
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2022 </span><br>B.Tech, Electrical and Electronics Engineering at Govt Model Engg College, Kochi</li>
+                            <li><span>2016 - 2018 </span><br>Computer science, Basel Evangelical Mission Higher Secondary School, Palakkad</li>
+                            <li><span>SSLC</span><br>Kendriya Vidyalaya Kanjikode, Palakkad</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <img src="./assets/mqtt.png" class="project-list-image">
+                    <h2>Connected Automated System Using MQTT, Google Assisted Voice assistant And NFC Tags</h2>
+                    <p>Developed a Centralized Automation System Leveraging MQTT, Google Assisted Voice Assistant, and NFC Tags. This 
+                        innovative project enables remote control and automation of household appliances, resulting in improved 
+                        operational efficiency and optimized energy utilization. This accomplishment reflects my proficiency in IoT and 
+                        automation technology, showcasing my ability to drive efficiency and innovation in complex technical projects.</p>                    
+                </div>
+
+                <div>
+                    <img src="./assets/meter.png" class="project-list-image">
+                    <h2>Automated Speed Control Indicator</h2>
+                    <p>Engineered an Automated Vehicle Speed Control System utilizing Arduino, RF Module, and GSM Module. This 
+                        innovation provides real-time speed notifications to drivers in speed-restricted areas while simultaneously relaying 
+                        messages to relevant authorities for enhanced safety.</p>                    
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> vipinkumar17.mec@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 8089596962</p>
+                    <div class="social-icons">                       
+                        <a href="https://www.linkedin.com/in/vipinkumar-sivakumar-2071321a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="./assets/Neudesic_VipinkumarSivakumar.pdf" download class="btn btn2">Download CV</a>
+                </div>                
+            </div>
+        </div>        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
